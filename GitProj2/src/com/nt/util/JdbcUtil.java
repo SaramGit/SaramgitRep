@@ -6,6 +6,6 @@ import java.sql.DriverManager;
 public class JdbcUtil {
 
 	   public static Connection getConnection(String url,String uname,String pwd) throws Exception {
-		   return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "system", "12345");
+		   return DriverManager.getConnection(url,uname,pwd);
 	   }
 }
