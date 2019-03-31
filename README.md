@@ -1,0 +1,2 @@
+# SaramgitRep
+centralRepositories
