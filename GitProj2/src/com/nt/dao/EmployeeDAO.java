@@ -22,8 +22,8 @@ public class EmployeeDAO {
 	    	//process the resultset
 	    	rs.next();
 	    	count=rs.getInt(1);
-	    	return count;	
-	    }
+	    	return count;	//1224
+	    }//12345
 	    public int getMaxSal() throws Exception{
 	    	Connection con=null;
 	    	PreparedStatement ps=null;
