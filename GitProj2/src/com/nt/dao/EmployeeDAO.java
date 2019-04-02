@@ -3,6 +3,8 @@ package com.nt.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.nt.util.JdbcUtil;
 
@@ -39,5 +41,8 @@ public class EmployeeDAO {
 	    	rs.next();
 	    	salary=rs.getInt(1);
 	    	return salary;
+	    }
+	    public List<String> getEmpAddress(){
+	    	return  new ArrayList();
 	    }
 }
