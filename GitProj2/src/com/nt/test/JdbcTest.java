@@ -1,6 +1,7 @@
 package com.nt.test;
 
 import java.sql.SQLException;
+import java.util.Date;
 
 import com.nt.dao.EmployeeDAO;
 import com.nt.service.EmployeeMgmtService;
@@ -24,6 +25,7 @@ public class JdbcTest {
 			//service class count
 			count=service.getEmpCount();
 			System.out.println("Employee Count is: "+count);
+			System.out.println(new Date());
 		}catch(SQLException se) {
 			se.printStackTrace();
 		}catch(Exception e) {

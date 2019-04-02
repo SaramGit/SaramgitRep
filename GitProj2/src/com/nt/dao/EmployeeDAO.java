@@ -44,6 +44,8 @@ public class EmployeeDAO {
 	    }
 	    public List<String> getEmpAddress(){
 	    	return  new ArrayList();
-
+       }
+	    public String Hello() {
+	    	return "hello";
 	    }
 }
